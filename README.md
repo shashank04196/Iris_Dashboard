@@ -1,22 +1,22 @@
 
 
-## 🎨 Design Rationale
+ Design Rationale
 
-### Vision & Problem Statement
+ Vision & Problem Statement
 
 The IRIS Dashboard was designed to provide NITK students with a centralized, intuitive interface for managing their academic life. The design prioritizes quick access to frequently used features while maintaining a clean, modern aesthetic that reduces cognitive load.
 
-### Design Philosophy
+Design Philosophy
 
-**1. Dark Theme Excellence**
-- **Professional Dark UI**: Black (#000000) background with dark gray (#1a1a1a) panels creates a sophisticated, modern look that reduces eye strain during extended use
-- **Contrast & Readability**: White text on dark backgrounds provides excellent readability while maintaining visual hierarchy
-- **Energy Efficiency**: Dark themes consume less power on OLED displays, extending battery life on mobile devices
+1. Dark Theme Excellence
+Professional Dark UI: Black (#000000) background with dark gray (#1a1a1a) panels creates a sophisticated, modern look that reduces eye strain during extended use
+Contrast & Readability: White text on dark backgrounds provides excellent readability while maintaining visual hierarchy
+Energy Efficiency: Dark themes consume less power on OLED displays, extending battery life on mobile devices
 
-**2. Color Psychology & Branding**
-- **Cyan Blue (#0ea5e9)**: Primary action color representing trust, intelligence, and academic excellence
-- **Purple (#8b5cf6)**: Secondary accent for creative elements and variety in data visualization
-- **Gradient Approach**: Smooth gradients on stat cards create visual interest without overwhelming the interface
+2. Color Psychology & Branding
+Cyan Blue (#0ea5e9): Primary action color representing trust, intelligence, and academic excellence
+Purple (#8b5cf6): Secondary accent for creative elements and variety in data visualization
+Gradient Approach: Smooth gradients on stat cards create visual interest without overwhelming the interface
 - **Color Coding**: Each section uses consistent colors to aid quick visual scanning
 
 **3. Information Architecture**
@@ -39,17 +39,17 @@ The IRIS Dashboard was designed to provide NITK students with a centralized, int
 
 ---
 
-## ✨ Features Implemented
+##  Features Implemented
 
 ### Core Dashboard Elements
 
-- **📊 Academic Stats Cards**
+- ** Academic Stats Cards**
   - Major CGPA with bar chart visualization
   - Major Credits counter with book icon
   - Current Semester indicator with calendar icon
   - Gradient backgrounds (cyan and purple themes)
 
-- **🏠 Sidebar Navigation**
+- ** Sidebar Navigation**
   - Dashboard (Home)
   - Institute information
   - Academic resources
@@ -58,13 +58,13 @@ The IRIS Dashboard was designed to provide NITK students with a centralized, int
   - Quick links section
   - Support contact information
 
-- **📢 Announcements System**
+- **Announcements System**
   - Tabbed interface (Announcement, Attendance, Time table, Courses)
   - Bordered announcement cards with cyan accent line
   - Real-time updates display
   - Multiple announcements with priority indicators
 
-- **⭐ Frequently Used Section**
+- **frequently Used Section**
   - Quick access to 8 most-used features:
     - Institute portal
     - Fee structure
@@ -77,7 +77,7 @@ The IRIS Dashboard was designed to provide NITK students with a centralized, int
   - Grid layout for easy scanning
   - Hover effects for interactivity
 
-- **📅 Upcoming Events Panel**
+- **Upcoming Events Panel**
   - "My Events" and "All Events" toggle
   - "This Week" and "Next Week" filters
   - Event cards with detailed information:
@@ -136,14 +136,14 @@ The IRIS Dashboard was designed to provide NITK students with a centralized, int
   - Custom color palette (#0ea5e9, #8b5cf6, #000000, #1a1a1a)
   - Inter font family from Google Fonts
 
-### Icons & UI Elements
-- **Lucide React 0.263.1**: Comprehensive icon library
+Icons & UI Elements
+Lucide React 0.263.1: Comprehensive icon library
   - Home, Building2, GraduationCap, Users, BookOpen
   - Search, Bell, Star, Calendar, MessageSquare
   - And 10+ more icons
 
-### Development Tools & AI Assistance
-- **Claude AI (Anthropic)**: Used for:
+Development Tools & AI Assistance
+Claude AI (Anthropic): Used for:
   - Pixel-perfect Figma to code conversion
   - Component structure and organization
   - Tailwind class optimization
@@ -153,12 +153,12 @@ The IRIS Dashboard was designed to provide NITK students with a centralized, int
 - **ESLint**: Code quality enforcement
 - **PostCSS & Autoprefixer**: CSS processing
 
-### Build & Deployment
+ Build & Deployment
 - **Vite Build System**: Optimized production builds
 - **ES Modules**: Modern JavaScript module system
 - **Netlify/Vercel Ready**: One-click deployment compatible
 
-## 🔗 Live Demo
+##  Live Demo
 
 http://localhost:3000/
 
